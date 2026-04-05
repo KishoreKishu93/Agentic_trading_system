@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: Agentic-Trading-System
+Version: 0.0.0
+Author: Kishore
+Author-email: kishore.kumarkv93@gmail.com
+Requires-Dist: langchain
+Requires-Dist: lancedb
+Requires-Dist: langgraph
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

@@ -3,3 +3,10 @@ langchain
 langgraph
 tavily-python
 polygon
+python-dotenv  
+langchain_core 
+langchain_groq
+ipykernel
+langchain-huggingface
+
+-e .
