@@ -9,5 +9,9 @@ langchain_groq
 ipykernel
 langchain-huggingface
 pinecone
+fastapi 
+uvicorn 
+python-multipart
+jinja2
 
 -e .
