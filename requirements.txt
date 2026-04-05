@@ -8,5 +8,6 @@ langchain_core
 langchain_groq
 ipykernel
 langchain-huggingface
+pinecone
 
 -e .

@@ -1,9 +1,14 @@
 import logging
 import os
 from datetime import datetime
+from pathlib import Path
+
+
+# print(BASE_DIR)
 
 # Create 'logs/' directory if it doesn't exist
-LOG_DIR = os.path.join(os.getcwd(), "logs")
+BASE_DIR = Path(__file__).resolve().parent
+LOG_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 # Create unique log file name
